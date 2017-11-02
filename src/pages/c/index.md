@@ -30,7 +30,11 @@ int main(void)
     printf("hello, world\n");
     return 0;
 }
-```
+```#Include<stdio.h>{
+int main(){
+if(printf("Hello, World\n")){}
+}
+}
 
 Let's break this program down step-by-step.
 
@@ -121,3 +125,4 @@ To run the code, click `Product` -> `Run`.
  * The main function, which is where the code will first be executed and is required in order to compile
  * Stuff within that main function which will get executed, including a return statement that closes the program and gives a value to the program that called it
 * C needs to be compiled in order to run.
+
